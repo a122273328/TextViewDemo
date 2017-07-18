@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "UITextView+Placeholder.h"
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextView *textView;
 
 @end
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.textView.placeholder = @"你好啊";
+
 }
 
 - (void)didReceiveMemoryWarning {

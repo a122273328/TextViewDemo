@@ -15,6 +15,7 @@
 		29FCD93C1D05519E00FFC861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29FCD93A1D05519E00FFC861 /* LaunchScreen.storyboard */; };
 		29FCD9471D05519E00FFC861 /* TextViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FCD9461D05519E00FFC861 /* TextViewDemoTests.m */; };
 		29FCD9521D05519E00FFC861 /* TextViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FCD9511D05519E00FFC861 /* TextViewDemoUITests.m */; };
+		29FCD9611D0551AD00FFC861 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FCD9601D0551AD00FFC861 /* UITextView+Placeholder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		29FCD94D1D05519E00FFC861 /* TextViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FCD9511D05519E00FFC861 /* TextViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewDemoUITests.m; sourceTree = "<group>"; };
 		29FCD9531D05519E00FFC861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29FCD95F1D0551AD00FFC861 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		29FCD9601D0551AD00FFC861 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		29FCD9201D05519E00FFC861 = {
 			isa = PBXGroup;
 			children = (
+				29FCD95F1D0551AD00FFC861 /* UITextView+Placeholder.h */,
+				29FCD9601D0551AD00FFC861 /* UITextView+Placeholder.m */,
 				29FCD92B1D05519E00FFC861 /* TextViewDemo */,
 				29FCD9451D05519E00FFC861 /* TextViewDemoTests */,
 				29FCD9501D05519E00FFC861 /* TextViewDemoUITests */,
@@ -276,6 +281,7 @@
 				29FCD9341D05519E00FFC861 /* ViewController.m in Sources */,
 				29FCD9311D05519E00FFC861 /* AppDelegate.m in Sources */,
 				29FCD92E1D05519E00FFC861 /* main.m in Sources */,
+				29FCD9611D0551AD00FFC861 /* UITextView+Placeholder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
